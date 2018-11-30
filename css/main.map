@@ -1,0 +1,36 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_base.scss",
+		"../scss/layout/_header.scss",
+		"../scss/layout/_footer.scss",
+		"../scss/layout/_nav.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_components.scss",
+		"../scss/modules/_sections.scss",
+		"../scss/modules/_typography.scss"
+	],
+	"sourcesContent": [
+		"/*\r\nSASS practice website\r\nAuthor: Graeme Robinson\r\n*/\r\n\r\n\r\n/*Base - Base styles, variables, mixins, etc*/\r\n\r\n@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_base.scss';\r\n\r\n/*Layout - Layout styles, header, footer, nav, etc*/\r\n\r\n@import 'layout/_header.scss';\r\n@import 'layout/_footer.scss';\r\n@import 'layout/_nav.scss';\r\n\r\n/*Modules - Module styles, buttons, sections, typography, etc*/\r\n\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_components.scss';\r\n@import 'modules/_sections.scss';\r\n@import 'modules/_typography.scss';\r\n\r\n\r\n",
+		"",
+		".row_1, .row_2{\r\nwidth:30px;\r\nheight:200px;}",
+		"",
+		"body{\r\nfont-family:arial;\r\nfont-size:30px;}",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+	],
+	"mappings": "AAAA;;;EAGE;AAGF,8CAA8C;;AEN9C,AAAA,MAAM,EAAE,AAAA,MAAM,CAAA;EACd,KAAK,EAAC,IAAK;EACX,MAAM,EAAC,KAAM;CAAE;;;AEFf,AAAA,IAAI,CAAA;EACJ,WAAW,EAAC,KAAM;EAClB,SAAS,EAAC,IAAK;CAAE;;AJWjB,oDAAoD;AAMpD,+DAA+D",
+	"names": []
+}
